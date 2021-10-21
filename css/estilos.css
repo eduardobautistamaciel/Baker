@@ -1,0 +1,184 @@
+@import url("fonts/stylesheet.css");
+html {
+    scroll-behavior: smooth
+}
+
+#loGormet .row {
+    height: 83vh;
+    background-image: url(../imagenes/imagen1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    text-align: center;
+    color: #fff;
+}
+
+#laCocina .row {
+    height: 90vh;
+    background-image: url(../imagenes/index2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    color: #fff;
+}
+
+#loGormet h1 {
+    border: 2px solid #FFF;
+    margin-top: 200px;
+    padding: 20px 0;
+    font-size: 50px;
+    font-weight: 400
+}
+
+#loGormet p {
+    font-size: 24px;
+}
+
+.logo {
+    height: 75px
+}
+
+.navbar {
+    background-color: #000;
+    border-bottom: 10px solid #fff;
+}
+
+.navbar .nav-link {
+    padding: 10px;
+    margin: 0 10px;
+    color: #fff !important;
+}
+
+.navbar .nav-link:hover {
+    font-weight: bold
+}
+
+.active {
+    border-bottom: 1px solid #fff
+}
+
+.navbar-toggler, .navbar-toggler:focus {
+    outline: none;
+    border: none;
+    background-color: transparent
+}
+
+#deliciosas div {
+    text-align: center
+}
+
+#deliciosas h1 {
+    background-image: url(../imagenes/croissant.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 70px 0 20px 0;
+    border-bottom: 1px solid #000;
+    width: 50%;
+    margin: 20px auto;
+    font-weight: 300;
+}
+
+#deliciosas article h2 {
+    font-size: 24px;
+    color: #a0542b
+}
+
+.fecha {
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.tipo {
+    width: 150px;
+    border-top: 1px solid #a0542b;
+    border-bottom: 1px solid #a0542b;
+    padding: 0 2px;
+    color: #a0542b
+}
+
+.marron {
+    background-color: #a0542b;
+    color: #fff
+}
+
+footer {
+    color: #fff;
+    background-color: #a0542b
+}
+
+footer #redes {
+    margin: 20px 0;
+}
+
+footer #redes img {
+    width: 33px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0px 5px 0 0
+}
+
+footer h1 {
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    font-weight: 600;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0
+}
+
+/*Contacto*/
+
+:focus {
+    outline: 0;
+}
+
+#panCasero h1 {
+    color: #a0542b
+}
+
+input {
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid #000;
+    width: 100%;
+}
+
+input:focus, textarea:focus {
+    border-color: #eb9918;
+}
+
+.enviar {
+    background-color: #ffffff;
+    color: #000
+}
+
+.enviar:hover {
+    background-color: #eb9918
+}
+
+textarea {
+    resize: none;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid #000;
+    display: block;
+    margin-top: 20px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+}
+
+@media screen and (max-width :740px) {
+    .navbar .nav-link {
+        font-size: 35px;
+    }
+}
